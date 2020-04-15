@@ -1,2 +1,2 @@
 #!/bin/bash
-exec python index.py
+exec /usr/local/bin/python  index.py
