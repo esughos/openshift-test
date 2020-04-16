@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y python python-pip
 
 RUN pip install -r requirements.txt
 
-COPY app.py /opt
+COPY . /opt
 
 WORKDIR /opt
 
